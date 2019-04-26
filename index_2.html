@@ -1,0 +1,94 @@
+<!-- 
+
+University: WSPA
+Subject: IT system project prepared in a team
+Semester: 6th
+Professor: Bartłomiej Kotyra
+Prepared by: Dileep, Darshil, Ali, Elton
+
+-->
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>IT Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href ="style_2.css" rel ="stylesheet">
+<script src = "main.js"></script>
+    
+</head>
+<body>
+
+<div id="container">
+	<div id="header">
+		
+		<div id="nav">
+			<ul>
+				<li><a href="index.html">Quiz 1</a></li>
+                <li><a href="index_2.html">Quiz 2</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		
+	</div>
+    
+    <div id="banner">
+			<img src="quiz_banner.jpg" alt="banner">
+		</div>
+            
+		
+	</div>
+		</div>
+	</div>
+    
+    <div id="right">
+         
+		<form id = "quiz" name = "quiz">
+<h2>Choose the correct answer</h2>
+
+<p class = "questions">1. The Great Wall Of China is visible from the moon.</p>
+<input type = "radio" id = "mc" name = "q1" value = "correct_1">False<br>
+<input type = "radio" id = "mc" name = "q1" value = "wrong_1">True<br>
+
+<p class = "questions">2. The total surface area of two human lungs have a surface area of approximately 70 square metres.
+</p>
+<input type = "radio" id = "mc" name = "q2" value = "correct_2">True<br>
+<input type = "radio" id = "mc" name = "q2" value = "wrong_2">False<br>
+
+<p class = "questions">3. As far as has ever been reported, no-one has ever seen an ostrich bury its head in the sand</p>
+
+<input type = "radio" id = "mc" name = "q3" value = "wrong_3">False<br>
+<input type = "radio" id = "mc" name = "q3" value = "correct_3">True<br>
+
+<p class = "questions">4. Approximately one quarter of human bones are in the feet.
+</p>
+<input type = "radio" id = "mc" name = "q4" value = "correct_4">True<br>
+<input type = "radio" id = "mc" name = "q4" value = "wrong_4">False<br>
+
+<p class = "questions">5. The average person will shed 10 pounds of skin during their lifetime.</p>
+
+<input type = "radio" id = "mc" name = "q5" value = "wrong_5">True<br>
+<input type = "radio" id = "mc" name = "q5" value = "correct_5">False<br>
+
+
+<input id = "button" type = "button" value = "Done" onclick = "choose()">
+	
+
+
+</form>
+
+<div id = "submit">
+<p id = "correct_number"></p>
+</div>	
+        
+		</div>
+	</div>
+	
+	<div id="footer">
+		<p>© Quiz 2019</p>
+	</div>
+</div>
+
+</body>
+</html>
